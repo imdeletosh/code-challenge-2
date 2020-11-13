@@ -36,3 +36,8 @@ abbr {
     cursor: pointer;
     text-decoration: none;
 }
+
+input {
+    border-radius: 10px;
+    border: 1px solid #eee;
+}
