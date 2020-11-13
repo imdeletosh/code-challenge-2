@@ -41,3 +41,34 @@ input {
     border-radius: 10px;
     border: 1px solid #eee;
 }
+
+/**
+Everything else
+ */
+body {
+    background: aqua;
+}
+
+/**
+For phones smaller than 375px
+ */
+@media (max-width: 375px) {
+
+    body {
+        background: white;
+    }
+
+    #nav {
+        flex-direction: column;
+    }
+
+    #nav  img {
+        display: none;
+    }
+
+    #right.nav-position  {
+        display: none
+    }
+
+}
+
